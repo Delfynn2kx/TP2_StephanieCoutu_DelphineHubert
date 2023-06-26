@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "roboto";
+  src: url(TP2_StephanieCoutu_DelphineHubert/fonts/roboto/Roboto-Light.ttf);
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+p {
+  font-family: "roboto";
+}
+
+h1 {
+  font-family: "roboto";
+  font-size: 35px;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+#images-extrait {
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid red;
+}
