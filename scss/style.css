@@ -1,14 +1,17 @@
+@charset "UTF-8";
 @font-face {
   font-family: "roboto";
   src: url(TP2_StephanieCoutu_DelphineHubert/fonts/roboto/Roboto-Light.ttf);
 }
 * {
   font-family: "roboto";
+  color: white;
 }
 
 body {
   width: 100%;
   margin: 0 auto;
+  background-color: rgb(60, 71, 92);
 }
 
 p {
@@ -21,9 +24,12 @@ h1 {
   padding-top: 100px;
 }
 
+h2 {
+  font-size: 20px;
+}
+
 h5 {
   font-size: 50px;
-  color: white;
   padding-top: 20px;
 }
 
@@ -33,10 +39,83 @@ h5 {
 }
 
 /* IMAGES ET EXTRAITS */
-#images-extrait {
-  width: 100%;
+#images-extraits {
+  width: 95%;
   margin: 0 auto;
-  border: 2px solid red;
+}
+
+.images-extraits-txt {
+  text-align: center;
+  margin: 0 auto;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: rgb(31, 41, 55);
+  border-radius: 10px;
+  width: 155px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+input[type=submit]:hover {
+  border-radius: 10px;
+  width: 155px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+input[type=email] {
+  padding: 5px;
+  margin-right: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.images-extraits-block-images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.images-extraits-images {
+  width: 33%;
+}
+
+iframe {
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+/* PRÉSENTATION DES ACTEURS */
+#presentation-acteurs {
+  padding-bottom: 50px;
+}
+
+.acteurs {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.acteur {
+  width: 20%;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 50px;
+}
+
+.icone {
+  width: 8%;
+  display: inline-block;
+  padding-left: 3px;
 }
 
 /* FAITS DIVERS */
@@ -84,17 +163,18 @@ h5 {
   top: 105%;
   left: 53%;
   background-color: white;
-  border-radius: 30px;
-  width: 200px;
-  padding: 15px;
+  color: rgb(31, 41, 55);
+  border-radius: 10px;
+  width: 155px;
+  padding: 10px;
   text-align: center;
   margin-top: 50px;
 }
 
 .faits-divers-button:hover {
-  border-radius: 30px;
-  width: 200px;
-  padding: 15px;
+  border-radius: 10px;
+  width: 155px;
+  padding: 10px;
   text-align: center;
   margin-top: 50px;
   background-color: transparent;
