@@ -2,24 +2,106 @@
   font-family: "roboto";
   src: url(TP2_StephanieCoutu_DelphineHubert/fonts/roboto/Roboto-Light.ttf);
 }
+* {
+  font-family: "roboto";
+}
+
 body {
   width: 100%;
   margin: 0 auto;
 }
 
 p {
-  font-family: "roboto";
+  font-size: 15px;
 }
 
 h1 {
-  font-family: "roboto";
   font-size: 35px;
   text-transform: uppercase;
   padding-top: 100px;
 }
 
+h5 {
+  font-size: 50px;
+  color: white;
+  padding-top: 20px;
+}
+
+/* NAVIGATION */
+.logo {
+  width: 15%;
+}
+
+/* IMAGES ET EXTRAITS */
 #images-extrait {
   width: 100%;
   margin: 0 auto;
   border: 2px solid red;
+}
+
+/* FAITS DIVERS */
+.ligne {
+  width: 80%;
+  height: 1000px;
+  margin: 0 auto;
+  border-bottom: 1.5px solid rgb(31, 41, 55);
+}
+
+.faits-divers-image-right {
+  width: 50%;
+  float: left;
+}
+
+.faits-divers-txtcontainer-right {
+  width: 50%;
+  padding: 30px;
+  background-color: rgb(60, 71, 92);
+  float: right;
+  height: 935px;
+}
+
+.faits-divers-txtcontainer-right p {
+  color: white;
+}
+
+.faits-divers-txtcontainer-right h1 {
+  color: white;
+}
+
+.box-chiffre-left {
+  width: 50%;
+  float: left;
+}
+
+.box-chiffre-right {
+  width: 50%;
+  float: right;
+}
+
+.faits-divers-button {
+  float: right;
+  position: absolute;
+  top: 105%;
+  left: 53%;
+  background-color: white;
+  border-radius: 30px;
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.faits-divers-button:hover {
+  border-radius: 30px;
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+button {
+  text-transform: uppercase;
 }
