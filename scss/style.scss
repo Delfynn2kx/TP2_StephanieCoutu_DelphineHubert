@@ -50,6 +50,8 @@ h1 {
     font-size: 35px;
     text-transform: uppercase;
     padding-top: 100px;
+    padding-bottom: 20px;
+    border-top: 2px solid $couleur-nav;
 }
 
 h2 {
@@ -69,8 +71,9 @@ h5 {
 /* IMAGES ET EXTRAITS */
 
 #images-extraits {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 
 .images-extraits-txt{
@@ -102,8 +105,7 @@ input[type=email] {
 }
 
 .images-extraits-images {
-    width: 33%;
-    
+    width: 33%; 
 }
 
 iframe {
@@ -114,10 +116,7 @@ iframe {
 /* PRÉSENTATION DES ACTEURS */
 
 #presentation-acteurs{
-    padding-bottom: 50px;
-}
-.acteurs {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -135,26 +134,58 @@ iframe {
     padding-left: 3px;
 }
 
+/* BEHIND-THE-SCENE */
+#behind-the-scene {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.scene-txt-right {
+    display: inline-flex;
+    text-align: justify;
+    align-items: center;
+}
+
+.scene-txt-right img {
+    padding-right: 50px;
+}
+
+.scene-txt-right p {
+    width: 40%;
+}
+
+.scene-txt-left{
+    display: inline-flex;
+    text-align: justify;
+    align-items: center;
+}
+
+.scene-txt-left img{
+    padding-left: 50px;
+}
+
+.scene-txt-left p {
+    width: 40%;
+}
 
 /* FAITS DIVERS */
-.ligne {
-    width: 80%;
-    height: 1000px;
-    margin: 0 auto;
-    @include border-bottom;
+#faits-divers {
+    width: 90%;
 }
 
 .faits-divers-image-right {
     width: 50%;
-    float: left ;
+    float: left;
 }
 
 .faits-divers-txtcontainer-right {
     width: 50%;
+    margin-bottom: 300px;
     padding: 30px;
     background-color: $couleur-nav-pale;
     float: right;
-    height: 935px;
 }
 
 .faits-divers-txtcontainer-right p {
@@ -178,8 +209,8 @@ iframe {
 .faits-divers-button {
     float: right;
     position: absolute;
-    top: 105%;
-    left: 53%;
+    top: 125%;
+    left: 47%;
     @include button;
 }
 
