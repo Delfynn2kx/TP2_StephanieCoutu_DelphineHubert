@@ -217,3 +217,42 @@ iframe {
 button {
   text-transform: uppercase;
 }
+
+/* FOOTER */
+footer {
+  background-color: white;
+}
+
+footer p {
+  color: black;
+}
+
+.footer-icone-left {
+  width: 50%;
+  float: left;
+  display: inline-flex;
+  padding-left: 20px;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.footer-icone-right {
+  float: right;
+  display: inline-flex;
+  gap: 10px;
+  padding-right: 20px;
+  width: 50%;
+  justify-content: end;
+  padding-top: 10px;
+}
+
+.footer-text-left {
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.footer-text-left p {
+  color: gray;
+  padding-top: 10px;
+  border-top: 1px solid black;
+}
