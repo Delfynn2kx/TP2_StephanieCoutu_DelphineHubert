@@ -2,248 +2,276 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="scss/style.css">
-    <title>Black Panther</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="scss/style.css">
+  <title>Black Panther</title>
 </head>
 
 <header>
-    <nav class="bg-gray-800 w-full">
-        <div class="p-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-16">
-                <div class="flex transition-all duration-300">
-                    <div class="logo"><img src="img/Black-Panther-Logo.png"></div>
-                </div>
-                <div class="flex">
-                    <div class="flex transition-all duration-300 hover:opacity-75">
-                        <div class="flex space-x-4">
-                            <a href="index.html"
-                                class="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
-                            <a href="tournage.html"
-                                class="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Tournage</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <nav class="bg-gray-800 w-full">
+    <div class="p-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex transition-all duration-300">
+          <div class="logo"><img src="img/Black-Panther-Logo.png"></div>
         </div>
-    </nav>
-    <div class="container-fluid grid grid-cols-12">
-        <div class="col-span-6 md:col-span-3 bg-red-800 p-4">
-            <h2>Black Panther: Wakanda Forever</h2>
-            <p>La reine Ramonda, Shuri, M'Baku, Okoye et la Dora Milaje se battent pour protéger leur nation des puissances mondiales intervenantes à la suite de la mort du roi T'Challa. Alors que les Wakandans s'efforcent d'embrasser leur prochain chapitre, les héros doivent s'unir à Nakia et Everett Ross pour forger une nouvelle voie pour leur royaume bien-aimé.</p>
-        </div>
-
-        <div id="default-carousel" class="relative col-span-6" data-carousel="slide">
-            <!-- Carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-                <!-- Item 1 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/slider1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                </div>
-                <!-- Item 2 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/slider2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                </div>
-                <!-- Item 3 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/slider3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                </div>
-                <!-- Item 4 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/slider4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                </div>
-                <!-- Item 5 -->
-                <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/slider5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                </div>
+        <div class="flex">
+          <div class="flex transition-all duration-300 hover:opacity-75">
+            <div class="flex space-x-4">
+              <a href="index.html"
+                class="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
+              <a href="tournage.html"
+                class="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Tournage</a>
             </div>
-            <!-- Slider indicators -->
-            <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-            </div>
-            <!-- Slider controls -->
-            <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
-                    <span class="sr-only">Previous</span>
-                </span>
-            </button>
-            <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                    <span class="sr-only">Next</span>
-                </span>
-            </button>
+          </div>
         </div>
-
-    </div>         
+      </div>
+    </div>
+  </nav>
 </header>
 
 <body>
-    <section id="images-extraits">
-        <div class="images-extraits-txt">
-            <h1>Images et extraits</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, beatae.</p>
+  <section class="container w-full px-3 mx-auto grid grid-cols-12 ">
+    <div class="col-span-6 bg- p-4">
+      <h2 class="text-2xl font-bold uppercase">Black Panther: Wakanda Forever</h2>
+      <p class="mt-4 mb-4 text-lg">La reine Ramonda, Shuri, M'Baku, Okoye et la Dora Milaje se battent pour protéger leur nation des puissances
+        mondiales intervenantes à la suite de la mort du roi T'Challa. Alors que les Wakandans s'efforcent d'embrasser
+        leur prochain chapitre, les héros doivent s'unir à Nakia et Everett Ross pour forger une nouvelle voie pour leur
+        royaume bien-aimé.</p>
 
-            <form>
-                <label for="email"></label>
-                <input type="email" id="email" name="email" placeholder="exemple@exemple.com">
-                <input type="submit" value="Je veux m'inscrire">
-            </form>
+        <button class="px-4 py-2 font-semibold text-sm bg-red-500 hover:bg-red-700 text-white rounded-none shadow-sm">Bouton 1</button>
+        <button class="px-4 py-2 font-semibold text-sm bg-red-500 hover:bg-red-700 text-white rounded-none shadow-sm">Bouton 2</button>
+    </div>
+    <div class="col-span-6 ">
+      <div id="default-carousel" class="relative" data-carousel="static">
+        <!-- Carousel wrapper -->
+        <div class="overflow-hidden relative h-56 sm:h-64 xl:h-80 2xl:h-96">
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <span
+              class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First
+              Slide</span>
+            <img src="img/slider1.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
+              alt="...">
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="img/slider2.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
+              alt="...">
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="img/slider3.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
+              alt="...">
+          </div>
+          <!-- Item 4 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="img/slider4.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
+              alt="...">
+          </div>
+          <!-- Item 5 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="img/slider5.jpg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
+              alt="...">
+          </div>
         </div>
-
-        <div class="images-extraits-block-images">
-            <div class="images-extraits-images">
-                <img src="img/black-panther-poster.jpg" alt="black panther poster">
-            </div>
-            <div class="images-extraits-images">
-                <img src="img/qT1JPO6IltC2B39QAriAg7SelMx.jpg" alt="black panther poster">
-            </div>
-            <div class="images-extraits-images">
-                <img src="img/Marvel+Black+Panther+Final.jpg" alt="black panther poster">
-            </div>
+        <!-- Slider indicators -->
+        <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
         </div>
+        <!-- Slider controls -->
+        <button type="button"
+          class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+          data-carousel-prev>
+          <span
+            class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            <span class="hidden">Previous</span>
+          </span>
+        </button>
+        <button type="button"
+          class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+          data-carousel-next>
+          <span
+            class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor"
+              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+            <span class="hidden">Next</span>
+          </span>
+        </button>
+  </section>
 
-        <iframe width="70%" height="450" src="https://www.youtube.com/embed/xjDjIWPwcPU" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <section id="images-extraits">
+    <div class="images-extraits-txt">
+      <h1>Images et extraits</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, beatae.</p>
 
-    </section>
+      <form>
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="exemple@exemple.com">
+        <input type="submit" value="Je veux m'inscrire">
+      </form>
+    </div>
 
-    <section id="presentation-acteurs">
-        <h1>Présentation des acteurs</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Unde dolorem, tempore ipsum eaque veritatis ipsa
-            facere. Dolor assumenda accusantium ratione?</p>
+    <div class="images-extraits-block-images">
+      <div class="images-extraits-images">
+        <img src="img/black-panther-poster.jpg" alt="black panther poster">
+      </div>
+      <div class="images-extraits-images">
+        <img src="img/qT1JPO6IltC2B39QAriAg7SelMx.jpg" alt="black panther poster">
+      </div>
+      <div class="images-extraits-images">
+        <img src="img/Marvel+Black+Panther+Final.jpg" alt="black panther poster">
+      </div>
+    </div>
 
-        <div class="acteurs">
-            <div class="acteur">
-                <img src="img/Angela Bassett.jpg" alt="">
-                <h2><em>Angela Basset</em></h2>
-                <p><strong>Ramonda</strong></p>
-                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                <div class="icones">
-                    <img class="icone" src="img/facebook (4).png" alt="">
-                    <img class="icone" src="img/instagram (3).png" alt="">
-                    <img class="icone" src="img/twitter (2).png" alt="">
-                </div>
-            </div>
+    <iframe width="70%" height="450" src="https://www.youtube.com/embed/xjDjIWPwcPU" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            <div class="acteur">
-                <img src="img/ChadwickBoseman.jpg" alt="">
-                <h2><em>Chadwick Boseman</em></h2>
-                <p><strong>Panthère noire</strong></p>
-                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                <div class="icones">
-                    <img class="icone" src="img/facebook (4).png" alt="">
-                    <img class="icone" src="img/instagram (3).png" alt="">
-                    <img class="icone" src="img/twitter (2).png" alt="">
-                </div>
-            </div>
+  </section>
 
-            <div class="acteur">
-                <img src="img/Danai Gurira.jpg" alt="">
-                <h2><em>Danai Gurira</em></h2>
-                <p><strong>Okoye</strong></p>
-                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                <div class="icones">
-                    <img class="icone" src="img/facebook (4).png" alt="">
-                    <img class="icone" src="img/instagram (3).png" alt="">
-                    <img class="icone" src="img/twitter (2).png" alt="">
-                </div>
-            </div>
+  <section id="presentation-acteurs">
+    <h1>Présentation des acteurs</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Unde dolorem, tempore ipsum eaque veritatis ipsa
+      facere. Dolor assumenda accusantium ratione?</p>
 
-            <div class="acteur">
-                <img src="img/Daniel Kaluuya.jpg" alt="">
-                <h2><em>Daniel Kaluuya</em></h2>
-                <p><strong>W'Kabi</strong></p>
-                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                <div class="icones">
-                    <img class="icone" src="img/facebook (4).png" alt="">
-                    <img class="icone" src="img/instagram (3).png" alt="">
-                    <img class="icone" src="img/twitter (2).png" alt="">
-                </div>
-            </div>
-
-            <div class="acteur">
-                <img src="img/Letitia Wright.jpg" alt="">
-                <h2><em>Letitia Wright</em></h2>
-                <p><strong>Shuri</strong></p>
-                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                <div class="icones">
-                    <img class="icone" src="img/facebook (4).png" alt="">
-                    <img class="icone" src="img/instagram (3).png" alt="">
-                    <img class="icone" src="img/twitter (2).png" alt="">
-                </div>
-            </div>
-
-            <div class="acteur">
-                <img src="img/Martin Freeman.jpg" alt="">
-                <h2><em>Martin Freeman</em></h2>
-                <p><strong>Everett K.Ross</strong></p>
-                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                <div class="icones">
-                    <img class="icone" src="img/facebook (4).png" alt="">
-                    <img class="icone" src="img/instagram (3).png" alt="">
-                    <img class="icone" src="img/twitter (2).png" alt="">
-                </div>
-            </div>
-
-            <div class="acteur">
-                <img src="img/MichaelB. Jordan.jpg" alt="">
-                <h2><em>Michael B.Jordan</em></h2>
-                <p><strong>Erik Kilmonger</strong></p>
-                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                <div class="icones">
-                    <img class="icone" src="img/facebook (4).png" alt="">
-                    <img class="icone" src="img/instagram (3).png" alt="">
-                    <img class="icone" src="img/twitter (2).png" alt="">
-                </div>
-            </div>
-
-            <div class="acteur">
-                <img src="img/Tenoch Huerta Mejía.jpg" alt="">
-                <h2><em>Tenoch Huerta Mejia</em></h2>
-                <p><strong>Namor</strong></p>
-                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                <div class="icones">
-                    <img class="icone" src="img/facebook (4).png" alt="">
-                    <img class="icone" src="img/instagram (3).png" alt="">
-                    <img class="icone" src="img/twitter (2).png" alt="">
-                </div>
-            </div>
+    <div class="acteurs">
+      <div class="acteur">
+        <img src="img/Angela Bassett.jpg" alt="">
+        <h2><em>Angela Basset</em></h2>
+        <p><strong>Ramonda</strong></p>
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+        <div class="icones">
+          <img class="icone" src="img/facebook (4).png" alt="">
+          <img class="icone" src="img/instagram (3).png" alt="">
+          <img class="icone" src="img/twitter (2).png" alt="">
         </div>
-    </section>
+      </div>
+
+      <div class="acteur">
+        <img src="img/ChadwickBoseman.jpg" alt="">
+        <h2><em>Chadwick Boseman</em></h2>
+        <p><strong>Panthère noire</strong></p>
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+        <div class="icones">
+          <img class="icone" src="img/facebook (4).png" alt="">
+          <img class="icone" src="img/instagram (3).png" alt="">
+          <img class="icone" src="img/twitter (2).png" alt="">
+        </div>
+      </div>
+
+      <div class="acteur">
+        <img src="img/Danai Gurira.jpg" alt="">
+        <h2><em>Danai Gurira</em></h2>
+        <p><strong>Okoye</strong></p>
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+        <div class="icones">
+          <img class="icone" src="img/facebook (4).png" alt="">
+          <img class="icone" src="img/instagram (3).png" alt="">
+          <img class="icone" src="img/twitter (2).png" alt="">
+        </div>
+      </div>
+
+      <div class="acteur">
+        <img src="img/Daniel Kaluuya.jpg" alt="">
+        <h2><em>Daniel Kaluuya</em></h2>
+        <p><strong>W'Kabi</strong></p>
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+        <div class="icones">
+          <img class="icone" src="img/facebook (4).png" alt="">
+          <img class="icone" src="img/instagram (3).png" alt="">
+          <img class="icone" src="img/twitter (2).png" alt="">
+        </div>
+      </div>
+
+      <div class="acteur">
+        <img src="img/Letitia Wright.jpg" alt="">
+        <h2><em>Letitia Wright</em></h2>
+        <p><strong>Shuri</strong></p>
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+        <div class="icones">
+          <img class="icone" src="img/facebook (4).png" alt="">
+          <img class="icone" src="img/instagram (3).png" alt="">
+          <img class="icone" src="img/twitter (2).png" alt="">
+        </div>
+      </div>
+
+      <div class="acteur">
+        <img src="img/Martin Freeman.jpg" alt="">
+        <h2><em>Martin Freeman</em></h2>
+        <p><strong>Everett K.Ross</strong></p>
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+        <div class="icones">
+          <img class="icone" src="img/facebook (4).png" alt="">
+          <img class="icone" src="img/instagram (3).png" alt="">
+          <img class="icone" src="img/twitter (2).png" alt="">
+        </div>
+      </div>
+
+      <div class="acteur">
+        <img src="img/MichaelB. Jordan.jpg" alt="">
+        <h2><em>Michael B.Jordan</em></h2>
+        <p><strong>Erik Kilmonger</strong></p>
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+        <div class="icones">
+          <img class="icone" src="img/facebook (4).png" alt="">
+          <img class="icone" src="img/instagram (3).png" alt="">
+          <img class="icone" src="img/twitter (2).png" alt="">
+        </div>
+      </div>
+
+      <div class="acteur">
+        <img src="img/Tenoch Huerta Mejía.jpg" alt="">
+        <h2><em>Tenoch Huerta Mejia</em></h2>
+        <p><strong>Namor</strong></p>
+        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+        <div class="icones">
+          <img class="icone" src="img/facebook (4).png" alt="">
+          <img class="icone" src="img/instagram (3).png" alt="">
+          <img class="icone" src="img/twitter (2).png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
 
 
-    <section id="behind-the-scene">
-        <h1>Scènes cinématographiques</h1>
-        <div class="scene-txt-right">
-            <img src="img/scene1.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quas eius. Unde itaque eos recusandae
-                libero labore natus omnis ex aliquam facere ad suscipit consectetur voluptatem
-                ullam reprehenderit temporibus tenetur, voluptate, repellendus, eius officiis aperiam modi incidunt.
-                Quis, nam laboriosam?</p>
-        </div>
-        <div class="scene-txt-left">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quas eius. Unde itaque eos recusandae
-                libero labore natus omnis ex aliquam facere ad suscipit consectetur voluptatem
-                ullam reprehenderit temporibus tenetur, voluptate, repellendus, eius officiis aperiam modi incidunt.
-                Quis, nam laboriosam?</p>
-                <img src="img/scene2.jpg" alt="">
-        </div>
-        <div class="scene-txt-right">
-            <img src="img/scene3.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quas eius. Unde itaque eos recusandae
-                libero labore natus omnis ex aliquam facere ad suscipit consectetur voluptatem
-                ullam reprehenderit temporibus tenetur, voluptate, repellendus, eius officiis aperiam modi incidunt.
-                Quis, nam laboriosam?</p>
-        </div>
-    </section>
+  <section id="behind-the-scene">
+    <h1>Scènes cinématographiques</h1>
+    <div class="scene-txt-right">
+      <img src="img/scene1.jpg" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quas eius. Unde itaque eos recusandae
+        libero labore natus omnis ex aliquam facere ad suscipit consectetur voluptatem
+        ullam reprehenderit temporibus tenetur, voluptate, repellendus, eius officiis aperiam modi incidunt.
+        Quis, nam laboriosam?</p>
+    </div>
+    <div class="scene-txt-left">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quas eius. Unde itaque eos recusandae
+        libero labore natus omnis ex aliquam facere ad suscipit consectetur voluptatem
+        ullam reprehenderit temporibus tenetur, voluptate, repellendus, eius officiis aperiam modi incidunt.
+        Quis, nam laboriosam?</p>
+      <img src="img/scene2.jpg" alt="">
+    </div>
+    <div class="scene-txt-right">
+      <img src="img/scene3.jpg" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quas eius. Unde itaque eos recusandae
+        libero labore natus omnis ex aliquam facere ad suscipit consectetur voluptatem
+        ullam reprehenderit temporibus tenetur, voluptate, repellendus, eius officiis aperiam modi incidunt.
+        Quis, nam laboriosam?</p>
+    </div>
+  </section>
+
+
+  <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
 </body>
 
 </html>
