@@ -221,3 +221,66 @@ iframe {
 button {
     text-transform: uppercase;
 }
+
+
+footer{
+
+	padding: 2rem 0;
+
+    p{
+        font-size: 1.2rem;
+        color: white;
+        clear: both;
+        text-align: center;
+      }
+        
+  }
+
+  .mediasocial{  
+  
+    &__item{
+        display: inline-block;
+        list-style: none;
+
+        &--Facebook {
+          background-image: url(../img/facebook.png);
+          width: 20px;
+          height: 20px;
+          background-repeat: no-repeat;
+          text-indent: -33333px;
+          background-size: contain;
+      }
+      &--Linkedin {
+        background-image: url(../img/linkedin.png);
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        text-indent: -33333px;
+        background-size: contain;
+    }
+    &--Twitter {
+      background-image: url(../img/twitter.png);
+      width: 20px;
+      height: 20px;
+      background-repeat: no-repeat;
+      text-indent: -33333px;
+      background-size: contain;
+  }
+  &--Instagram {
+    background-image: url(../img/instagram.png);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    text-indent: -33333px;
+    background-size: contain;
+    }
+  }
+}
+
+  .sourceFooter-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
