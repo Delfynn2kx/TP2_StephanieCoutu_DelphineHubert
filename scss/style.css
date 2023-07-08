@@ -41,12 +41,6 @@ h5 {
 }
 
 /* IMAGES ET EXTRAITS */
-#images-extraits {
-  width: 90%;
-  margin: 0 auto;
-  padding-bottom: 100px;
-}
-
 .images-extraits-txt {
   text-align: center;
   margin: 0 auto;
@@ -98,11 +92,6 @@ iframe {
 }
 
 /* PRÉSENTATION DES ACTEURS */
-#presentation-acteurs {
-  width: 90%;
-  margin: 0 auto;
-}
-
 .acteur {
   width: 20%;
   display: inline-block;
@@ -118,13 +107,6 @@ iframe {
 }
 
 /* BEHIND-THE-SCENE */
-#behind-the-scene {
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .scene-txt-right {
   display: inline-flex;
   text-align: justify;
@@ -154,10 +136,6 @@ iframe {
 }
 
 /* FAITS DIVERS */
-#faits-divers {
-  width: 90%;
-}
-
 .faits-divers-image-right {
   width: 50%;
   float: left;
