@@ -220,11 +220,11 @@ button {
 
 /* FOOTER */
 footer {
-  background-color: white;
+  background-color: rgb(31, 41, 55);
 }
 
 footer p {
-  color: black;
+  color: white;
 }
 
 .footer-icone-left {
@@ -252,7 +252,7 @@ footer p {
 }
 
 .footer-text-left p {
-  color: gray;
+  color: white;
   padding-top: 10px;
-  border-top: 1px solid black;
+  border-top: 1px solid white;
 }
