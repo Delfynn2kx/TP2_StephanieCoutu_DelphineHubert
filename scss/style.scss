@@ -3,8 +3,8 @@
     src: url(TP2_StephanieCoutu_DelphineHubert/fonts/roboto/Roboto-Light.ttf);
 }
 
-$couleur-nav:rgb(31 41 55);
-$couleur-nav-pale:rgb(60, 71, 92);
+$couleur-nav: rgb(31 41 55);
+$couleur-nav-pale: rgb(60, 71, 92);
 
 @mixin button {
     background-color: white;
@@ -96,9 +96,9 @@ input[type=email] {
 }
 
 input::placeholder {
-        color: white;
-        font-size: 0.8em;
-        text-align: center;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
 }
 
 .images-extraits-block-images {
@@ -215,41 +215,66 @@ button {
 /* FOOTER */
 
 footer {
-    background-color: $couleur-nav;
-}
 
-footer p {
-    color: white;
-}
+    padding: 2rem 0;
 
-.footer-icone-left {
-    width: 50%;
-    float: left;
-    display: inline-flex;
-    padding-left: 20px;
-    gap: 10px;
-    padding-top: 10px;
+    p {
+        font-size: 1.2rem;
+        color: white;
+        clear: both;
+        text-align: center;
+    }
 
 }
 
-.footer-icone-right {
-    float: right;
-    display: inline-flex;
-    gap: 10px;
-    padding-right: 20px;
-    width: 50%;
-    justify-content: end;
-    padding-top: 10px;
+.mediasocial {
 
+    &__item {
+        display: inline-block;
+        list-style: none;
+
+        &--Facebook {
+            background-image: url(../img/facebook.png);
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            text-indent: -33333px;
+            background-size: contain;
+        }
+
+        &--Linkedin {
+            background-image: url(../img/linkedin.png);
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            text-indent: -33333px;
+            background-size: contain;
+        }
+
+        &--Twitter {
+            background-image: url(../img/twitter.png);
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            text-indent: -33333px;
+            background-size: contain;
+        }
+
+        &--Instagram {
+            background-image: url(../img/instagram.png);
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            text-indent: -33333px;
+            background-size: contain;
+        }
+    }
 }
 
-.footer-text-left {
-    padding-left: 20px;
-    padding-top: 50px;
-}
-
-.footer-text-left p {
-    color: white;
-    padding-top: 10px;
-    border-top: 1px solid white;
+.sourceFooter-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
