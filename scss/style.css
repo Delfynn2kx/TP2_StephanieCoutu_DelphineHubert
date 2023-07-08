@@ -21,9 +21,7 @@ p {
 h1 {
   font-size: 35px;
   text-transform: uppercase;
-  padding-top: 100px;
   padding-bottom: 20px;
-  border-top: 2px solid rgb(31, 41, 55);
 }
 
 h2 {
@@ -33,6 +31,10 @@ h2 {
 h5 {
   font-size: 50px;
   padding-top: 20px;
+}
+
+.ligne {
+  border-bottom: 2px solid white;
 }
 
 /* NAVIGATION */
@@ -75,6 +77,18 @@ input[type=email] {
   border-radius: 10px;
 }
 
+input::-moz-placeholder {
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+input::placeholder {
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+}
+
 .images-extraits-block-images {
   width: 100%;
   display: flex;
@@ -97,7 +111,7 @@ iframe {
   display: inline-block;
   margin-left: 15px;
   margin-right: 15px;
-  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .icone {
@@ -109,12 +123,11 @@ iframe {
 /* BEHIND-THE-SCENE */
 .scene-txt-right {
   display: inline-flex;
-  text-align: justify;
-  align-items: center;
 }
 
 .scene-txt-right img {
   padding-right: 50px;
+  padding-bottom: 40px;
 }
 
 .scene-txt-right p {
@@ -123,12 +136,11 @@ iframe {
 
 .scene-txt-left {
   display: inline-flex;
-  text-align: justify;
-  align-items: center;
 }
 
 .scene-txt-left img {
   padding-left: 50px;
+  padding-bottom: 40px;
 }
 
 .scene-txt-left p {
@@ -136,7 +148,7 @@ iframe {
 }
 
 /* FAITS DIVERS */
-.faits-divers-image-right {
+.faits-divers-image-left {
   width: 50%;
   float: left;
 }
