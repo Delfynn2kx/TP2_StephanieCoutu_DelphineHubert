@@ -9,35 +9,36 @@
     <title>Black Panther</title>
 </head>
 
-<header>
-    <nav class="bg-gray-800 w-full">
-        <div class="p-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-16">
-                <div class="flex transition-all duration-300">
-                    <div class="logo"><img src="img/Black-Panther-Logo.png"></div>
-                </div>
-                <div class="flex">
-                    <div class="flex transition-all duration-300 hover:opacity-75">
-                        <div class="flex space-x-4">
-                            <a href="index.html"
-                                class="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
-                            <a href="tournage.html"
-                                class="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Tournage</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-</header>
 
-<body>
+
+<body class="bg-[#1c181e]">
+    <header>
+        <section class="p-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-[url('img/banniere.png')] bg-cover bg-no-repeat bg-top">
+        <nav class="w-full">      
+            <div class="flex items-center justify-between h-16">
+              <div class="flex transition-all duration-300">
+                <div class="logo"><img src="img/Black-Panther-Logo.png"></div>
+              </div>
+              <div class="flex">
+                <div class="flex transition-all duration-300 hover:opacity-75">
+                  <div class="flex space-x-4">
+                    <a href="index.html"
+                      class="text-white hover:bg-[#462373] rounded-lg px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
+                    <a href="tournage.html"
+                      class="text-white hover:bg-[#462373] rounded-lg px-3 py-2 rounded-md text-sm font-medium">Tournage</a>
+                  </div>
+                </div>
+              </div>
+            </div>      
+        </nav>
+      </section>
+    </header>
     <!-- FAITS DIVERS -->
     <div class="container grid grid-cols-12 mx-auto">
         <div class="col-span-6 xl:col-start-2 xl:col-end-12 p-8">
             <img class="faits-divers-image-left" src="img/film-cover.jpg" alt="image du poster du film">
-            <div class="faits-divers-txtcontainer-right">
-                <h1>Faits divers</h1>
+            <div class="faits-divers-txtcontainer-right bg-[#462373]">
+                <h2 class="text-2xl uppercase font-bold p-4">Faits divers</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ratione quasi officiis eligendi odio
                     optio!
                     Dolores consequuntur eum tempore repudiandae mollitia aspernatur cum est qui soluta unde.
@@ -62,18 +63,18 @@
         </div>
     </div>
     <!-- PHOTOS -->
-    <section class="container-fluid grid grid-cols-12">
-        <div class="col-span-12 md:col-span-6 xl:col-span-4 bg-red-500  p-8"><img src="img/tournage-1.jpg"
+    <section class="mt-40 bg-[url('img/grungetexture.jpg')] bg-cover bg-repeat grid grid-cols-12">
+        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="img/tournage-1.jpg"
                 alt="Image du tournage wakanda forever 1/6"></div>
-        <div class="col-span-12 md:col-span-6 xl:col-span-4 bg-red-500  p-8"><img src="img/tournage-2.jpg"
+        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="img/tournage-2.jpg"
                 alt="Image du tournage wakanda forever 2/6"></div>
-        <div class="col-span-12 md:col-span-6 xl:col-span-4 bg-red-500  p-8"><img src="img/tournage-3.jpg"
+        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="img/tournage-3.jpg"
                 alt="Image du tournage wakanda forever 3/6"></div>
-        <div class="col-span-12 md:col-span-6 xl:col-span-4 bg-red-500  p-8"><img src="img/tournage-4.jpg"
+        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="img/tournage-4.jpg"
                 alt="Image du tournage wakanda forever 4/6"></div>
-        <div class="col-span-12 md:col-span-6 xl:col-span-4 bg-red-500  p-8"><img src="img/tournage-5.jpg"
+        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="img/tournage-5.jpg"
                 alt="Image du tournage wakanda forever 5/6"></div>
-        <div class="col-span-12 md:col-span-6 xl:col-span-4 bg-red-500  p-8"><img src="img/tournage-6.JPG"
+        <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8"><img src="img/tournage-6.JPG"
                 alt="Image du tournage wakanda forever 6/6"></div>
     </section>
     <!-- PRÉSENTATION DE LA DIRECTION ARTISTIQUE -->
