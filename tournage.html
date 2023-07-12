@@ -34,33 +34,35 @@
       </section>
     </header>
     <!-- FAITS DIVERS -->
-    <div class="container grid grid-cols-12 mx-auto">
-        <div class="col-span-6 xl:col-start-2 xl:col-end-12 p-8">
-            <img class="faits-divers-image-left" src="img/film-cover.jpg" alt="image du poster du film">
-            <div class="faits-divers-txtcontainer-right bg-[#462373]">
+    <div class="container grid grid-cols-12 mx-auto flex flex-col md:flex-row-reverse">
+        <div class="col-span-12 md:col-span-12 xl:col-span-6 p-8 order-2 md:order-1">
+            <img src="img/film-cover.jpg" alt="image du poster du film"></div>
+            <div class="bg-[#462373] col-span-12 md:col-span-12 xl:col-span-6 p-8 m-8 order-1 md:order-2">
                 <h2 class="text-2xl uppercase font-bold p-4">Faits divers</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ratione quasi officiis eligendi odio
-                    optio!
-                    Dolores consequuntur eum tempore repudiandae mollitia aspernatur cum est qui soluta unde.
-                    Laudantium,
-                    qui veniam.</p>
+                <p> Black Panther, le héros emblématique du Wakanda, a captivé les fans du monde entier. 
+                    Ce personnage empreint de puissance et de noblesse a inspiré une génération. 
+                    Des cosplayers dévoués recréent ses costumes incroyables et des artistes lui rendent 
+                    hommage à travers des illustrations époustouflantes. Son succès au box-office a également 
+                    propulsé le film au sommet des classements, devenant l'un des films de super-héros les 
+                    plus rentables de tous les temps. Black Panther est bien plus qu'un simple personnage de 
+                    fiction ; il incarne la représentation et l'espoir pour de nombreux admirateurs à travers 
+                    le globe.</p>
                 <div class="box-chiffre-left">
-                    <h5>366.2</h5>
+                    <h5 class="text-4xl pt-10">366.2</h5>
                     <p>Nombre de vues | Mondialement | En millions</p>
-                    <h5>1.3</h5>
+                    <h5 class="text-4xl pt-10" >1.3</h5>
                     <p>Nombre de dollars | En milliards</p>
+                    <div class="faits-divers-button">
+                        <button>En savoir plus</button>
+                    </div>
                 </div>
                 <div class="box-chiffre-right">
-                    <h5>5</h5>
+                    <h5 class="text-4xl pt-10">5</h5>
                     <p>Nombre de nomminations aux Oscars 2023</p>
-                    <h5>3</h5>
+                    <h5 class="text-4xl pt-10" >3</h5>
                     <p>Nombre de victoires</p>
                 </div>
             </div>
-            <div class="faits-divers-button">
-                <button>En savoir plus</button>
-            </div>
-        </div>
     </div>
     <!-- PHOTOS -->
     <section class="mt-40 bg-[url('img/grungetexture.jpg')] bg-cover bg-repeat grid grid-cols-12">

@@ -13,8 +13,9 @@
 
 <body class="bg-[#1c181e]">
   <header>
-    <section class="p-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-[url('img/banniere.png')] bg-cover bg-no-repeat bg-top">
-    <nav class="w-full">      
+    <section
+      class="p-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-[url('img/banniere.png')] bg-cover bg-no-repeat bg-top">
+      <nav class="w-full">
         <div class="flex items-center justify-between h-16">
           <div class="flex transition-all duration-300">
             <div class="logo"><img src="img/Black-Panther-Logo.png"></div>
@@ -29,273 +30,279 @@
               </div>
             </div>
           </div>
-        </div>      
-    </nav>
-  </section>
+        </div>
+      </nav>
+    </section>
 
-  <div class="w-full mx-auto grid grid-cols-12">
-    <div class="col-span-6  bg-[#462373] p-4"> 
-      <h2 class="text-2xl uppercase font-bold p-4">Black Panther: Wakanda Forever</h2>
-      <p class="text-xl p-4">La reine Ramonda, Shuri, M'Baku, Okoye et la Dora Milaje se battent pour protéger leur
-        nation des puissances mondiales intervenantes à la suite de la mort du roi T'Challa. Alors que les Wakandans s'efforcent d'embrasser
-        leur prochain chapitre, les héros doivent s'unir à Nakia et Everett Ross pour forger une nouvelle voie pour leur
-        royaume bien-aimé.</p>
+    <div class="w-full mx-auto grid grid-cols-12">
+      <div class="col-span-6  bg-[#462373] p-4">
+        <h2 class="text-2xl uppercase font-bold p-4">Black Panther: Wakanda Forever</h2>
+        <p class="text-xl p-4">La reine Ramonda, Shuri, M'Baku, Okoye et la Dora Milaje se battent pour protéger leur
+          nation des puissances mondiales intervenantes à la suite de la mort du roi T'Challa. Alors que les Wakandans
+          s'efforcent d'embrasser
+          leur prochain chapitre, les héros doivent s'unir à Nakia et Everett Ross pour forger une nouvelle voie pour
+          leur
+          royaume bien-aimé.</p>
         <div class="">
-          <button class="m-5 rounded-lg bg-[#eeeeee] hover:bg-[#1c181e] hover:text-white active:bg-[#eeeeee] focus:outline-none focus:ring focus:bg-[#eeeeee] uppercase font-bold p-3 text-black">Le tournage</button>
-          <button class="m-5 rounded-lg bg-[#eeeeee] hover:bg-[#1c181e] hover:text-white active:bg-[#eeeeee] focus:outline-none focus:ring focus:bg-[#eeeeee] uppercase font-bold p-3 text-black">Les acteurs</button>
+          <button
+            class="m-5 rounded-lg bg-[#eeeeee] hover:bg-[#1c181e] hover:text-white active:bg-[#eeeeee] focus:outline-none focus:ring focus:bg-[#eeeeee] uppercase font-bold p-3 text-black">Le
+            tournage</button>
+          <button
+            class="m-5 rounded-lg bg-[#eeeeee] hover:bg-[#1c181e] hover:text-white active:bg-[#eeeeee] focus:outline-none focus:ring focus:bg-[#eeeeee] uppercase font-bold p-3 text-black">Les
+            acteurs</button>
+        </div>
       </div>
-    </div>
 
-    <div id="default-carousel" class="relative col-span-6" data-carousel="slide">
-      <!-- Carousel wrapper -->
-      <div class="relative overflow-hidden md:h-96">
-        <!-- Item 1 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="img/slider1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="...">
+      <div id="default-carousel" class="relative col-span-6" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative overflow-hidden md:h-96">
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="img/slider1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="...">
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="img/slider2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="...">
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="img/slider3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="...">
+          </div>
+          <!-- Item 4 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="img/slider4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="...">
+          </div>
+          <!-- Item 5 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="img/slider5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              alt="...">
+          </div>
         </div>
-        <!-- Item 2 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="img/slider2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="...">
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+            data-carousel-slide-to="0"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+            data-carousel-slide-to="1"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+            data-carousel-slide-to="2"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+            data-carousel-slide-to="3"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+            data-carousel-slide-to="4"></button>
         </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="img/slider3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="...">
-        </div>
-        <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="img/slider4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="...">
-        </div>
-        <!-- Item 5 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="img/slider5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt="...">
-        </div>
+        <!-- Slider controls -->
+        <button type="button"
+          class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev>
+          <span
+            class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button type="button"
+          class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next>
+          <span
+            class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
+              stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
       </div>
-      <!-- Slider indicators -->
-      <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
-          data-carousel-slide-to="0"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
-          data-carousel-slide-to="1"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
-          data-carousel-slide-to="2"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
-          data-carousel-slide-to="3"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
-          data-carousel-slide-to="4"></button>
-      </div>
-      <!-- Slider controls -->
-      <button type="button"
-        class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-        data-carousel-prev>
-        <span
-          class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-          <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
-            stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-          </svg>
-          <span class="sr-only">Previous</span>
-        </span>
-      </button>
-      <button type="button"
-        class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-        data-carousel-next>
-        <span
-          class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-          <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
-            stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-          </svg>
-          <span class="sr-only">Next</span>
-        </span>
-      </button>
     </div>
-  </div>
   </header>
-  
 
-  
+
+
 
   <!--   IMAGES ET EXTRAITS -->
 
   <div class="bg-[url('img/grungetexture.jpg')] bg-cover bg-repeat bg-top grid grid-cols-12 mx-auto">
-    <div class="col-span-12 xl:col-start-4 xl:col-end-10 p-8">
-      <div class="images-extraits-txt">
-        <h2 class="text-2xl uppercase font-bold p-4">Images et extraits</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, beatae.</p>
-        <form>
-          <label for="email"></label>
-          <input type="email" id="email" name="email" placeholder="exemple@exemple.com">
-          <input type="submit" value="Je veux m'inscrire">
-        </form>
-      </div>
+    <div class="col-span-12 mx-auto p-8">
+      <h2 class="text-2xl uppercase font-bold p-4 text-center">Images et extraits</h2>
+      <p class="text-center">Voici des images et des extraits du film.</p>
+      <form class="text-center">
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="exemple@exemple.com">
+        <input type="submit" value="Je veux m'inscrire">
+      </form>
     </div>
+  </div>
 
-    <div class="col-span-6 xl:col-start-2 xl:col-end-12 p-8">
-      <div class="images-extraits-block-images">
-        <div class="images-extraits-images">
-          <img src="img/black-panther-poster.jpg" alt="black panther poster">
-        </div>
-        <div class="images-extraits-images">
-          <img src="img/qT1JPO6IltC2B39QAriAg7SelMx.jpg" alt="black panther poster">
-        </div>
-        <div class="images-extraits-images">
-          <img src="img/Marvel+Black+Panther+Final.jpg" alt="black panther poster">
-        </div>
-      </div>
+
+  <div class="bg-[url('img/grungetexture.jpg')] bg-cover bg-repeat bg-top grid grid-cols-12 mx-auto">
+    <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8 mx-auto">
+      <img src="img/black-panther-poster.jpg" alt="black panther poster">
     </div>
-
-    <div class="col-span-6 xl:col-start-3 xl:col-end-11 p-8">
+    <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8 mx-auto">
+      <img src="img/qT1JPO6IltC2B39QAriAg7SelMx.jpg" alt="black panther poster">
+    </div>
+    <div class="col-span-12 md:col-span-6 xl:col-span-4 p-8 mx-auto">
+      <img src="img/Marvel+Black+Panther+Final.jpg" alt="black panther poster">
+    </div>
+    <div class="col-span-12 md:col-span-6 xl:col-span-12 p-8">
       <iframe width="100%" height="450" src="https://www.youtube.com/embed/xjDjIWPwcPU" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 
+
+
   <!-- PRÉSENTATION DES ACTEURS   -->
-  <div class="bg-[#462373] grid grid-cols-12 mx-auto">
-    <div class="col-span-12 xl:col-start-2 xl:col-end-12 p-8">
+  <div class="bg-[#462373] grid  grid-cols-12 mx-auto">
+    <div class="col-span-7 p-8">
       <h2 class="text-2xl uppercase font-bold p-4">Présentation des acteurs</h2>
-      <p class="p-4">Chadwick Boseman incarne le charismatique roi T'Challa. Lupita Nyong'o brille en tant que guerrière Nakia,
-        tandis que Michael B.
-        Jordan apporte une intensité électrisante au rôle de l'antagoniste Erik Killmonger. Avec un casting aussi
-        talentueux, Black Panthers
-        promet d'être un film époustouflant et inoubliable.</p>
+      <p class="p-4">Chadwick Boseman incarne le charismatique roi T'Challa. Lupita Nyong'o brille en tant que guerrière
+        Nakia,tandis que Michael B. Jordan apporte une intensité électrisante au rôle de l'antagoniste Erik Killmonger.
+        Avec un casting aussi talentueux, Black Panthers promet d'être un film époustouflant et inoubliable.</p>
     </div>
-    <div class="col-span-6 xl:col-start-2 xl:col-end-12 p-8">
-      <div class="acteurs">
-        <div class="acteur">
-          <img src="img/Angela Bassett.jpg" alt="Angela Basset">
-          <h2><em>Angela Basset</em></h2>
-          <p><strong>Ramonda</strong></p>
-          <p>Angela Basset incarne Ramonda, la mère de T'Challa, le roi du Wakanda. </p>
-          <div class="icones">
-            <img class="icone" src="img/facebook (4).png" alt="icone facebook">
-            <img class="icone" src="img/instagram (3).png" alt="icone instagram">
-            <img class="icone" src="img/twitter (2).png" alt="icone twitter">
-          </div>
-        </div>
+  </div>
+  <div class="bg-[#462373] grid grid-cols-12 mx-auto">
+    <div class="col-span-6 md:col-span-4 xl:col-span-3 p-8">
+      <img src="img/Angela Bassett.jpg" alt="Angela Basset">
+      <h2><em>Angela Basset</em></h2>
+      <p><strong>Ramonda</strong></p>
+      <p>Angela Basset incarne Ramonda, la mère de T'Challa, le roi du Wakanda. </p>
+      <div class="icones">
+        <img class="icone" src="img/facebook (4).png" alt="icone facebook">
+        <img class="icone" src="img/instagram (3).png" alt="icone instagram">
+        <img class="icone" src="img/twitter (2).png" alt="icone twitter">
+      </div>
+    </div>
 
-        <div class="acteur">
-          <img src="img/ChadwickBoseman.jpg" alt="Chadwick Boseman">
-          <h2><em>Chadwick Boseman</em></h2>
-          <p><strong>Panthère noire</strong></p>
-          <p>Chadwinck Boseman tient le rôle principal de la fameuse panthère noir.</p>
-          <div class="icones">
-            <img class="icone" src="img/facebook (4).png" alt="icone facebook">
-            <img class="icone" src="img/instagram (3).png" alt="icone instagram">
-            <img class="icone" src="img/twitter (2).png" alt="icone twitter">
-          </div>
-        </div>
+    <div class="col-span-6 md:col-span-4 xl:col-span-3 p-8">
+      <img src="img/ChadwickBoseman.jpg" alt="Chadwick Boseman">
+      <h2><em>Chadwick Boseman</em></h2>
+      <p><strong>Panthère noire</strong></p>
+      <p>Chadwinck Boseman tient le rôle principal de la fameuse panthère noir.</p>
+      <div class="icones">
+        <img class="icone" src="img/facebook (4).png" alt="icone facebook">
+        <img class="icone" src="img/instagram (3).png" alt="icone instagram">
+        <img class="icone" src="img/twitter (2).png" alt="icone twitter">
+      </div>
+    </div>
 
-        <div class="acteur">
-          <img src="img/Danai Gurira.jpg" alt="Danai Gurira">
-          <h2><em>Danai Gurira</em></h2>
-          <p><strong>Okoye</strong></p>
-          <p>Okoye est la chef des Dora Milaje, la redoutable garde personnelle du roi T'Challa.</p>
-          <div class="icones">
-            <img class="icone" src="img/facebook (4).png" alt="icone facebook">
-            <img class="icone" src="img/instagram (3).png" alt="icone instagram">
-            <img class="icone" src="img/twitter (2).png" alt="icone twitter">
-          </div>
-        </div>
+    <div class="col-span-6 md:col-span-4 xl:col-span-3 p-8">
+      <img src="img/Danai Gurira.jpg" alt="Danai Gurira">
+      <h2><em>Danai Gurira</em></h2>
+      <p><strong>Okoye</strong></p>
+      <p>Okoye est la chef des Dora Milaje, la redoutable garde personnelle du roi.</p>
+      <div class="icones">
+        <img class="icone" src="img/facebook (4).png" alt="icone facebook">
+        <img class="icone" src="img/instagram (3).png" alt="icone instagram">
+        <img class="icone" src="img/twitter (2).png" alt="icone twitter">
+      </div>
+    </div>
 
-        <div class="acteur">
-          <img src="img/Daniel Kaluuya.jpg" alt="Daniel Kaluuya">
-          <h2><em>Daniel Kaluuya</em></h2>
-          <p><strong>W'Kabi</strong></p>
-          <p>W'Kabi est un ami d'enfance de T'Challa et également le chef de sécurité du Wakanda.</p>
-          <div class="icones">
-            <img class="icone" src="img/facebook (4).png" alt="icone facebook">
-            <img class="icone" src="img/instagram (3).png" alt="icone instagram">
-            <img class="icone" src="img/twitter (2).png" alt="icone twitter">
-          </div>
-        </div>
+    <div class="col-span-6 md:col-span-4 xl:col-span-3 p-8">
+      <img src="img/Daniel Kaluuya.jpg" alt="Daniel Kaluuya">
+      <h2><em>Daniel Kaluuya</em></h2>
+      <p><strong>W'Kabi</strong></p>
+      <p>W'Kabi est un ami d'enfance de T'Challa et également le chef de sécurité du Wakanda.</p>
+      <div class="icones">
+        <img class="icone" src="img/facebook (4).png" alt="icone facebook">
+        <img class="icone" src="img/instagram (3).png" alt="icone instagram">
+        <img class="icone" src="img/twitter (2).png" alt="icone twitter">
+      </div>
+    </div>
 
-        <div class="acteur">
-          <img src="img/Letitia Wright.jpg" alt="Letitia Wright">
-          <h2><em>Letitia Wright</em></h2>
-          <p><strong>Shuri</strong></p>
-          <p>Shuri est la jeune sœur de T'Challa, le roi du Wakanda, et elle est également une génie technologique. </p>
-          <div class="icones">
-            <img class="icone" src="img/facebook (4).png" alt="icone facebook">
-            <img class="icone" src="img/instagram (3).png" alt="icone instagram">
-            <img class="icone" src="img/twitter (2).png" alt="icone twitter">
-          </div>
-        </div>
+    <div class="col-span-6 md:col-span-4 xl:col-span-3 p-8">
+      <img src="img/Letitia Wright.jpg" alt="Letitia Wright">
+      <h2><em>Letitia Wright</em></h2>
+      <p><strong>Shuri</strong></p>
+      <p>Shuri est la jeune sœur de T'Challa, le roi du Wakanda, et elle est également une génie technologique. </p>
+      <div class="icones">
+        <img class="icone" src="img/facebook (4).png" alt="icone facebook">
+        <img class="icone" src="img/instagram (3).png" alt="icone instagram">
+        <img class="icone" src="img/twitter (2).png" alt="icone twitter">
+      </div>
+    </div>
 
-        <div class="acteur">
-          <img src="img/Martin Freeman.jpg" alt="Martin Freeman">
-          <h2><em>Martin Freeman</em></h2>
-          <p><strong>Everett K.Ross</strong></p>
-          <p>Ross est un agent de la CIA qui se retrouve impliqué dans les affaires du royaume de Wakanda.</p>
-          <div class="icones">
-            <img class="icone" src="img/facebook (4).png" alt="icone facebook">
-            <img class="icone" src="img/instagram (3).png" alt="icone instagram">
-            <img class="icone" src="img/twitter (2).png" alt="icone twitter">
-          </div>
-        </div>
+    <div class="col-span-6 md:col-span-4 xl:col-span-3 p-8">
+      <img src="img/Martin Freeman.jpg" alt="Martin Freeman">
+      <h2><em>Martin Freeman</em></h2>
+      <p><strong>Everett K.Ross</strong></p>
+      <p>Ross est un agent de la CIA qui se retrouve impliqué dans les affaires du royaume de Wakanda.</p>
+      <div class="icones">
+        <img class="icone" src="img/facebook (4).png" alt="icone facebook">
+        <img class="icone" src="img/instagram (3).png" alt="icone instagram">
+        <img class="icone" src="img/twitter (2).png" alt="icone twitter">
+      </div>
+    </div>
 
-        <div class="acteur">
-          <img src="img/MichaelB. Jordan.jpg" alt="MichaelB. Jordan">
-          <h2><em>Michael B.Jordan</em></h2>
-          <p><strong>Erik Kilmonger</strong></p>
-          <p>Erik Killmonger est l'antagoniste principal du film et représente un défi pour le personnage principal.</p>
-          <div class="icones">
-            <img class="icone" src="img/facebook (4).png" alt="icone facebook">
-            <img class="icone" src="img/instagram (3).png" alt="icone instagram">
-            <img class="icone" src="img/twitter (2).png" alt="icone twitter">
-          </div>
-        </div>
+    <div class="col-span-6 md:col-span-4 xl:col-span-3 p-8">
+      <img src="img/MichaelB. Jordan.jpg" alt="MichaelB. Jordan">
+      <h2><em>Michael B.Jordan</em></h2>
+      <p><strong>Erik Kilmonger</strong></p>
+      <p>Erik Killmonger est l'antagoniste principal du film et représente un défi pour le personnage principal.</p>
+      <div class="icones">
+        <img class="icone" src="img/facebook (4).png" alt="icone facebook">
+        <img class="icone" src="img/instagram (3).png" alt="icone instagram">
+        <img class="icone" src="img/twitter (2).png" alt="icone twitter">
+      </div>
+    </div>
 
-        <div class="acteur">
-          <img src="img/Tenoch Huerta Mejía.jpg" alt="tenoch huerta mejia">
-          <h2><em>Tenoch Huerta Mejia</em></h2>
-          <p><strong>Namor</strong></p>
-          <p>Namor est associé à la mythologie de l'Atlantide; est représenté comme le prince héritier. </p>
-          <div class="icones">
-            <img class="icone" src="img/facebook (4).png" alt="icone de facebook">
-            <img class="icone" src="img/instagram (3).png" alt="icone de instagram">
-            <img class="icone" src="img/twitter (2).png" alt="icone de twitter">
-          </div>
-        </div>
+    <div class="col-span-6 md:col-span-4 xl:col-span-3 p-8">
+      <img src="img/Tenoch Huerta Mejía.jpg" alt="tenoch huerta mejia">
+      <h2><em>Tenoch Huerta Mejia</em></h2>
+      <p><strong>Namor</strong></p>
+      <p>Namor est associé à la mythologie de l'Atlantide; est représenté comme le prince héritier. </p>
+      <div class="icones">
+        <img class="icone" src="img/facebook (4).png" alt="icone de facebook">
+        <img class="icone" src="img/instagram (3).png" alt="icone de instagram">
+        <img class="icone" src="img/twitter (2).png" alt="icone de twitter">
       </div>
     </div>
   </div>
+
 
   <!-- BEHIND-THE-SCENE -->
   <div class="grid grid-cols-12 mx-auto bg-[url('img/grungetexture.jpg')] bg-cover bg-repeat bg-top">
-    <div class="col-span-6 xl:col-start-3 xl:col-end-11 p-8">
-      <div class="scene-txt-right bg-[#141115] p-8">
-        <img src="img/scene1.jpg" alt="image de scène de film lors du combat">
-        <p>
-          Défi pour la Couronne aux Chutes du Guerrier. <br><br>
-          Avec une grande partie du film se déroulant dans le pays africain fictif de Wakanda, les réalisateurs ont
-          repéré des lieux en Afrique.
-          Mais finalement, de nombreuses scènes de Wakanda ont été tournées à Atlanta, sur des plateaux extérieurs et en
-          studio.</p>
-      </div>
-      <div class="scene-txt-left mt-10 bg-[#462373] p-8">
-        <p>Lors de la première prise, Chadwick a manqué sa réception et est tombé lourdement sur le sol. Tout le monde a
-          retenu son souffle,
-          craignant une blessure sérieuse. Mais Chadwick, démontrant son dévouement et sa persévérance, s'est relevé
-          avec grâce et a demandé à
-          refaire la prise immédiatement. Finalement, Chadwick a parfaitement exécuté la cascade.</p>
-        <img src="img/scene2.jpg" alt="image de scène de film avec Black Panthers">
-      </div>
-      <div class="scene-txt-right mt-10 bg-[#141115] p-8">
-        <img src="img/scene3.jpg" alt="image de scene de film avec Black Panthers">
-        <p>Pendant le tournage d'une scène cruciale où le personnage de Shuri, interprété par Letitia Wright, présente à
-          T'Challa une nouvelle
-          technologie révolutionnaire, l'actrice a improvisé une ligne qui a fait éclater de rire toute l'équipe de
-          tournage. Elle a ajouté une remarque humoristique qui n'était pas dans le script initial. La
-          réplique a pris tout le monde par surprise, y compris Chadwick Boseman, qui jouait le rôle de T'Challa.</p>
-      </div>
+    <div class="mt-10 ml-20 bg-[#141115] col-span-12 md:col-span-6 xl:col-span-6 p-8">
+      <img src="img/scene1.jpg" alt="image de scène de film lors du combat"> </div>
+    <div class="mt-10 mr-20 bg-[#462373] col-span-12 md:col-span-6 xl:col-span-6 p-8">
+      <p>Défi pour la Couronne aux Chutes du Guerrier. <br><br>
+        Avec une grande partie du film se déroulant dans le pays africain fictif de Wakanda, les réalisateurs ont
+        repéré des lieux en Afrique. Mais finalement, de nombreuses scènes de Wakanda ont été tournées à Atlanta, sur
+        des plateaux extérieurs et en
+        studio.</p>
+    </div>
+
+    <div class="mt-10 ml-20 bg-[#462373] col-span-12 md:col-span-6 xl:col-span-6 p-8">
+      <p>Lors de la première prise, Chadwick a manqué sa réception et est tombé lourdement sur le sol. Tout le monde a
+        retenu son souffle,
+        craignant une blessure sérieuse. Mais Chadwick, démontrant son dévouement et sa persévérance, s'est relevé
+        avec grâce et a demandé à
+        refaire la prise immédiatement. Finalement, Chadwick a parfaitement exécuté la cascade.</p>
+    </div>
+    <div class="mt-10 mr-20 bg-[#141115] col-span-12 md:col-span-6 xl:col-span-6 p-8">
+      <img src="img/scene2.jpg" alt="image de scène de film avec Black Panthers"></div>
+
+    <div class="mt-10 mb-10 ml-20 bg-[#141115] col-span-12 md:col-span-6 xl:col-span-6 p-8">
+      <img src="img/scene3.jpg" alt="image de scene de film avec Black Panthers"></div>
+    <div class="mt-10 mb-10 mr-20 bg-[#462373] col-span-12 md:col-span-6 xl:col-span-6 p-8">
+      <p>Pendant le tournage d'une scène cruciale où le personnage de Shuri, interprété par Letitia Wright, présente à
+        T'Challa une nouvelle
+        technologie révolutionnaire, l'actrice a improvisé une ligne qui a fait éclater de rire toute l'équipe de
+        tournage. Elle a ajouté une remarque humoristique qui n'était pas dans le script initial. La
+        réplique a pris tout le monde par surprise, y compris Chadwick Boseman, qui jouait le rôle de T'Challa.</p>
     </div>
   </div>
+  </div>
+
+  <!--   FOOTER -->
   <footer>
     <div class="sourceFooter-2">
       <div class="coordonnees">

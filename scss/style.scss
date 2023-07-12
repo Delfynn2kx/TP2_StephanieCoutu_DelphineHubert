@@ -10,10 +10,10 @@ $couleur-nav-pale: rgb(60, 71, 92);
     background-color: white;
     color: $couleur-nav;
     border-radius: 10px;
-    width: 155px;
+    width: 200px;
     padding: 10px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 @mixin buttonHover {
@@ -46,25 +46,6 @@ body {
 
 p {
     font-size: 15px;
-}
-
-h1 {
-    font-size: 35px;
-    text-transform: uppercase;
-    padding-bottom: 20px;
-}
-
-h2 {
-    font-size: 20px;
-}
-
-h5 {
-    font-size: 50px;
-    padding-top: 20px;
-}
-
-.ligne {
-    border-bottom: 2px solid white;
 }
 
 /* NAVIGATION */
@@ -101,32 +82,7 @@ input::placeholder {
     text-align: center;
 }
 
-.images-extraits-block-images {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
-}
-
-.images-extraits-images {
-    width: 33%;
-}
-
-iframe {
-    margin: 0 auto;
-    padding-top: 50px;
-}
-
 /* PRÉSENTATION DES ACTEURS */
-
-.acteur {
-    width: 20%;
-    display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-bottom: 50px;
-}
-
 
 .icone {
     width: 8%;
@@ -134,56 +90,7 @@ iframe {
     padding-left: 3px;
 }
 
-/* BEHIND-THE-SCENE */
-
-.scene-txt-right {
-    display: inline-flex;
-}
-
-.scene-txt-right img {
-    padding-right: 50px;
-    padding-bottom: 40px;
-}
-
-.scene-txt-right p {
-    width: 40%;
-}
-
-.scene-txt-left {
-    display: inline-flex;
-}
-
-.scene-txt-left img {
-    padding-left: 50px;
-    padding-bottom: 40px;
-}
-
-.scene-txt-left p {
-    width: 40%;
-}
-
 /* FAITS DIVERS */
-
-.faits-divers-image-left {
-    width: 50%;
-    float: left;
-}
-
-.faits-divers-txtcontainer-right {
-    width: 50%;
-    margin-bottom: 300px;
-    padding: 30px;
-    background-color: $couleur-nav-pale;
-    float: right;
-}
-
-.faits-divers-txtcontainer-right p {
-    color: white;
-}
-
-.faits-divers-txtcontainer-right h1 {
-    color: white;
-}
 
 .box-chiffre-left {
     width: 50%;
@@ -196,10 +103,6 @@ iframe {
 }
 
 .faits-divers-button {
-    float: right;
-    position: absolute;
-    top: 125%;
-    left: 47%;
     @include button;
 }
 
