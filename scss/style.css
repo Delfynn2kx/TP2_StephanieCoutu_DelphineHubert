@@ -8,6 +8,11 @@
   color: white;
 }
 
+iframe {
+  width: 100%;
+  border: 1px solid #000;
+}
+
 body {
   width: 100%;
   margin: 0 auto;
@@ -56,12 +61,6 @@ input[type=email] {
   background-color: transparent;
   border: 1px solid white;
   border-radius: 10px;
-}
-
-input::-moz-placeholder {
-  color: white;
-  font-size: 0.8em;
-  text-align: center;
 }
 
 input::placeholder {
@@ -167,4 +166,4 @@ footer .sourceFooter-2 {
   align-items: center;
   width: 75%;
   margin: 0 auto;
-}
+}/*# sourceMappingURL=style.css.map */
